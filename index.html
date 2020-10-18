@@ -2,142 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/devjane.png" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle-navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Introduction -->
-
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi there! I'm <strong>Austin Xavier Bell</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Front-End Web Developer</p>
-        <img src="img/eduardo-dutra-k6b53YWZI9I-unsplash.png" class="intro__img" alt="a picture of me">
+  <header>
+    <button class="nav-toggle" aria-label="toggle-navigation">
+      <span class="hamburger"></span>
+    </button>
     </section>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#about" class="nav__link">About Me</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#toolbox" class="nav__link">Toolbox</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#projects" class="nav__link">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- My Services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I Do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Design + Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div> <!-- close service -->
+  <!-- Introduction -->
 
-            <div class="service">
-                <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div> <!-- close service -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi there! I'm <strong>Austin Xavier Bell</strong>
+    </h1>
+    <!-- <p class="section__subtitle section__subtitle--intro">
+        Junior Front-End Web Developer
+      </p> -->
+    <!-- <img
+        src="img/eduardo-dutra-k6b53YWZI9I-unsplash.png"
+        class="intro__img"
+        alt=""
+      /> -->
+  </section>
 
-            <div class="service">
-                <h3>WordPress</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div> <!-- close service -->
-        </div> <!-- close services -->
+  <!-- About Me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">About Me</h2>
+    <!-- <p class="section__subtitle section__subtitle--about">[think of a subtitle maybe]</p> -->
 
-        <a href="#work" class="btn">My Work</a>
-    </section>
+    <div class="about-me__body">
+      <p>
+        I'm a front-end developer with a background in
+        customer service. I have a strong passion for solving problems and figuring out how things work. That's what
+        drew me to coding. My curiosity is limitless and I'm always thrilled to try new things.
+      </p>
+    </div>
+    <img src="img\eduardo-dutra-Kqjc3vvgl1k-unsplash@2x.png" alt="" class="about-me__img" />
+  </section>
 
-    <!-- About Me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">About Me</h2>
-        <p class="section__subtitle section__subtitle--about">[think of a subtitle maybe]</p>
+  <!-- My Toolbox -->
+  <section class="my-toolbox" id="toolbox">
+    <h2 class="section__title section__title--toolbox">Toolbox</h2>
+    <div class="toolbox">
+      <div class="tools">
+        <h3>Languages</h3>
+        <p>HTML5<br />CSS3<br />JavaScript</p>
+      </div>
 
-        <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ornare arcu dui vivamus arcu felis bibendum ut. Orci phasellus egestas tellus
-                rutrum tellus pellentesque. Aliquam nulla facilisi cras fermentum. Odio morbi quis commodo odio aenean
-                sed. Dui accumsan sit amet nulla facilisi. Sed egestas egestas fringilla phasellus faucibus scelerisque
-                eleifend. Non tellus orci ac auctor. Donec ultrices tincidunt arcu non sodales neque. Consectetur a erat
-                nam at lectus urna duis convallis convallis. Facilisis gravida neque convallis a cras semper auctor
-                neque vitae. Turpis egestas sed tempus urna et pharetra. Tortor at risus viverra adipiscing at in tellus
-                integer. Ornare arcu odio ut sem nulla pharetra. Varius quam quisque id diam vel. Nisl pretium fusce id
-                velit ut tortor pretium viverra suspendisse.</p>
-            <p>Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Nunc pulvinar sapien et ligula ullamcorper
-                malesuada. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Mattis rhoncus urna neque
-                viverra justo nec ultrices dui. Pretium viverra suspendisse potenti nullam ac tortor vitae purus
-                faucibus. Enim ut tellus elementum sagittis vitae et leo duis ut. Neque egestas congue quisque egestas.
-                Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Feugiat nisl pretium fusce id velit. Turpis
-                nunc eget lorem dolor sed viverra. Praesent elementum facilisis leo vel fringilla est ullamcorper eget.
-                Elementum integer enim neque volutpat ac tincidunt vitae semper quis.</p>
-        </div>
-        <img src="img\eduardo-dutra-Kqjc3vvgl1k-unsplash@2x.png" alt="" class="about-me__img">
-    </section>
+      <div class="tools">
+        <h3>Dev Tools</h3>
+        <p>
+          React.js<br />GitHub<br />CodePen<br />Postman<br />Firebase<br />Terminal
+        </p>
+      </div>
+    </div>
+    <!-- close toolbox -->
 
-    <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-        <div class="portfolio">
-            <!-- Portfolio Item 1 -->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/Rectangle 3@2x.png" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio Item 2 -->
-            <a href="portfolio-item.html"class="portfolio__item">
-                <img src="img/Rectangle 3@2x.png" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio Item 3 -->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/Rectangle 3@2x.png" alt="" class="portfolio__img">
-            </a>
-        </div>
-    </section>
+    <!-- <a href="#projects" class="btn">My Work</a> -->
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <a href="mailto:xavierbellhaddon@gmail.com" class="footer__link">xavierbellhaddon@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a href="https://github.com/xavierbellhaddon" class="social-list__link">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-            <li class="social-list__item"><a href="https://twitter.com/xavierbell22" class="social-list__link">
-                    <i class="fab fa-twitter"></i>
-                </a>
+  <!-- My Work -->
+  <section class="my-projects" id="projects">
+    <h2 class="section__title section__title--projects">Projects</h2>
+    <!-- <p class="section__subtitle section__subtitle--projects">
+        A selection of my range of work
+      </p> -->
+    <div class="portfolio">
+      <!-- Portfolio Item 1 -->
+      <a href="https://react-covid-tracker-25d87.web.app/" class="portfolio__item">
+        <h3>COVID Tracker</h3>
+      </a>
+      <!-- Portfolio Item 2 -->
+      <a href="https://react-instagram-clone-60f45.web.app/" class="portfolio__item">
+        <h3>Instagram Clone</h3>
+      </a>
+      <!-- Portfolio Item 3 -->
+      <a href="https://xavierbellhaddon.github.io/birthday-colors/" class="portfolio__item">
+        <h3>Birthday Colors</h3>
+      </a>
+    </div>
+  </section>
 
-            </li>
-        </ul>
-    </footer>
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:xavierbellhaddon@gmail.com" class="footer__link">
+      xavierbellhaddon@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="https://github.com/xavierbellhaddon" class="social-list__link">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://www.linkedin.com/in/xavierbellhaddon/" class="social-list__link">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://twitter.com/xavierbell22" class="social-list__link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
 
-    <script src="js/index.js"></script>
-
+  <script src="js/index.js"></script>
 </body>
 
 </html>
